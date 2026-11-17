@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Registration</title>
+</head>
+<body>
+    <center>
+    <h1>Knowledge Hub Library</h1>
+    <h2>Membership Registration</h2>
+</center>
+
+<hr>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="books.html">Books</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="book-details.html">View Book Details</a></li> 
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="feedback.html">Feedback</a></li> 
+        </ul>
+    </nav>
+    <h2>Introduction</h2>  
+    <p>Welcome to Knowledge Hub Library Membership Registration. Students and readers can register to become library members. Please complete the registration form with accurate information. This information will help us understand your membership requirements.</p>
+    <form>
+
+    <fieldset>
+
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="father">Father Name:</label>
+        <input type="text" id="father" name="father">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+    </fieldset>
+    <fieldset>
+
+    <legend>Gender</legend>
+
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+
+    </fieldset>
+    <fieldset>
+
+    <legend>Membership Type</legend>
+
+    <label for="membership">Choose Membership:</label>
+
+    <select id="membership" name="membership">
+
+        <option value="">Select Membership</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="general">General Member</option>
+
+    </select>
+
+    </fieldset>
+    <fieldset>
+
+    <legend>Reading Interests</legend>
+
+    <input type="checkbox" id="programming" name="interest" value="Programming">
+    <label for="programming">Programming</label>
+
+    <br>
+
+    <input type="checkbox" id="science" name="interest" value="Science">
+    <label for="science">Science</label>
+
+    <br>
+
+    <input type="checkbox" id="literature" name="interest" value="Literature">
+    <label for="literature">Literature</label>
+
+    <br>
+
+    <input type="checkbox" id="mathematics" name="interest" value="Mathematics">
+    <label for="mathematics">Mathematics</label>
+
+    </fieldset>
+    <fieldset>
+
+    <legend>Address Information</legend>
+
+    <label for="address">Complete Address:</label>
+
+    <textarea id="address" name="address" rows="5" cols="40"></textarea>
+
+    </fieldset>
+    <label for="document">Upload Student ID:</label>
+
+    <input type="file" id="document" name="document"> 
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="15" max="100">
+
+    <br><br>
+
+     <label for="joining">Joining Date:</label>
+     <input type="date" id="joining" name="joining">  
+     <input type="checkbox" id="terms" name="terms" required>
+
+    <label for="terms">
+        I agree to the library rules and regulations.
+    </label>
+    <br><br>
+
+    <input type="submit" value="Register">
+
+    <input type="reset" value="Clear Form">
+
+</form>
+<hr>
+
+<footer>
+    <p>Copyright © 2026 Knowledge Hub Library</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Feedback</title>
+</head>
+<body>
+    <header>
+        <center>
+    <h1>Knowledge Hub Library</h1>
+    <h2>Feedback Form</h2>
+</center>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="books.html">Books</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="book-details.html">View Book Details</a></li> 
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="feedback.html">Feedback</a></li> 
+            </ul>
+        </nav>
+        <h2>Introduction</h2>
+        <p>We value your feedback. Your opinions help us improve our library services, book collection, and learning environment. Please complete the following form and share your experience with Knowledge Hub Library.</p>
+        <form>
+
+    <fieldset>
+
+        <legend>Personal Information</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+
+        <legend>Library Experience</legend>
+
+        <label for="rating">Rate Our Library (1 to 10):</label>
+
+        <input type="range" id="rating" name="rating"
+               min="1" max="10">
+
+        <br><br>
+
+        <label for="service">Which service did you use?</label>
+
+        <select id="service" name="service">
+
+            <option value="books">Book Collection</option>
+            <option value="reading">Reading Room</option>
+            <option value="online">Online Library</option>
+            <option value="research">Research Materials</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="suggestion">Your Suggestions:</label>
+
+        <textarea id="suggestion" name="suggestion"
+                  rows="5" cols="40"></textarea>
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit Feedback">
+
+    <input type="reset" value="Clear Form">
+
+</form>
+<h3>Favorite Book Category</h3>
+
+<label for="category">Choose Category:</label>
+
+<input list="categories" id="category" name="category">
+
+<datalist id="categories">
+
+    <option value="Computer Science">
+    <option value="Programming">
+    <option value="Mathematics">
+    <option value="Science">
+    <option value="Literature">
+
+</datalist>
+<h3>Feedback Date</h3>
+
+<label for="date">Date:</label>
+<input type="date" id="date" name="date">
+
+<br><br>
+
+<label for="time">Time:</label>
+<input type="time" id="time" name="time">
+<h3>Library Satisfaction Level</h3>
+
+<p>Current Satisfaction:</p>
+
+<meter value="8" min="0" max="10">8 out of 10</meter>
+
+    </main>
+<footer>
+
+    <p>Thank you for visiting Knowledge Hub Library.</p>
+
+    <p>Copyright © 2026 Knowledge Hub Library</p>
+
+    <a href="index.html">Back to Home</a>
+
+</footer>
+
+
+
+
+</body>
+</html>
